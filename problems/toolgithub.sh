@@ -24,18 +24,18 @@ do
     if [[ $i != 'README.md' ]]
     then
     # 移除开头
-    sed -i '' '/align/d;/\"\"><\/a>/d;/<\/p>/d;/<\/a>/d;/20210924105952.png/d;/_blank/d' $i
-    # 移除结尾
-    sed -i '' '/训练营/d;/网站星球宣传海报/d' $i
-
-
-    # 添加开头
-    # 记得从后向前添加
-    ex -sc '1i|<p align="center"><strong><a href="./qita/join.md">参与本项目</a>，贡献其他语言版本的代码，拥抱开源，让更多学习算法的小伙伴们受益！</strong></p>' -cx $i
-    ex -sc '1i|</a>' -cx $i
-    ex -sc '1i|  <img src="../pics/训练营.png" width="1000"/>' -cx $i
-    ex -sc '1i|<a href="https://www.programmercarl.com/xunlian/xunlianying.html" target="_blank">' -cx $i
-    ex -sc '1i|<p align="center">' -cx $i
+#    sed -i '' '/align/d;/\"\"><\/a>/d;/<\/p>/d;/<\/a>/d;/20210924105952.png/d;/_blank/d' $i
+#    # 移除结尾
+#    sed -i '' '/训练营/d;/网站星球宣传海报/d' $i
+#
+#
+#    # 添加开头
+#    # 记得从后向前添加
+#    ex -sc '1i|<p align="center"><strong><a href="./qita/join.md">参与本项目</a>，贡献其他语言版本的代码，拥抱开源，让更多学习算法的小伙伴们受益！</strong></p>' -cx $i
+#    ex -sc '1i|</a>' -cx $i
+#    ex -sc '1i|  <img src="../pics/训练营.png" width="1000"/>' -cx $i
+#    ex -sc '1i|<a href="https://www.programmercarl.com/xunlian/xunlianying.html" target="_blank">' -cx $i
+#    ex -sc '1i|<p align="center">' -cx $i
     # echo '## 其他语言版本' >> $i
     # echo '\n' >> $i
     # echo 'Java：' >> $i
@@ -48,10 +48,10 @@ do
 
     # 添加结尾 
 
-    echo '<p align="center">' >> $i
-    echo '<a href="https://programmercarl.com/other/kstar.html" target="_blank">' >> $i
-    echo '  <img src="../pics/网站星球宣传海报.jpg" width="1000"/>' >> $i
-    echo '</a>' >> $i 
+#    echo '<p align="center">' >> $i
+#    echo '<a href="https://programmercarl.com/other/kstar.html" target="_blank">' >> $i
+#    echo '  <img src="../pics/网站星球宣传海报.jpg" width="1000"/>' >> $i
+#    echo '</a>' >> $i
 
     # echo '-----------------------' >> $i
 

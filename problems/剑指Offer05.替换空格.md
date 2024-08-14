@@ -167,7 +167,4 @@ for (int i = 0; i < a.size(); i++) {
 
 
 
-<p align="center">
-<a href="https://programmercarl.com/other/kstar.html" target="_blank">
-  <img src="../pics/网站星球宣传海报.jpg" width="1000"/>
-</a>
+  
