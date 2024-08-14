@@ -13,11 +13,6 @@
 > 9. **转载须知** ：以下所有文章皆为我（[程序员Carl](https://github.com/youngyangyang04)）的原创。引用本项目文章请注明出处，发现恶意抄袭或搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！
 
 
-<p align="center">
-<a href="https://programmercarl.com/xunlian/xunlianying.html" target="_blank">
-	<img src="./pics/训练营.png" width="800"/>
-</a>
-</p>
 
 # LeetCode 刷题攻略
 
